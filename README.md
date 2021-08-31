@@ -35,3 +35,7 @@ The wordlists are created by trawling through [CommonCrawl](https://CommonCrawl.
 2. Pruning items that are too rare to be of general interest based on their rate of occurrence
 3. Using shannon entropy to remove random values, tokens and UUIDs.
 4. Removing items that are broken due to incorrect encoding and/or decoding.
+
+## Got an idea for improvements?
+
+Feel free to DM me on [Twitter](https://twitter.com/SamuelAnttila), or drop an issue in the issue tracker.
