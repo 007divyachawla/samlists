@@ -23,7 +23,7 @@ As you can see, the top 3000 rows in the parameters wordlist map quite beautiful
 | Wordlist name  | Size |  Description            |
 | ------------- | ------------- |------------- |
 | samlists-parameters.txt  | ~52K rows  | HTTP parameter names (basically what would go in `{here}` for the URL `http://example.com?{here}=value`).             |
-| samlists-parameters-lowercase.txt  | ~47K rows  | Same as `samlists-parameters.txt` but converted to lowercase and deduplicated (while preserving order). I recommend using the mixed case wordlist unless you are sure your target is case insensitive, as this was converted and deduplicated and thus not exactly how it was discovered during the crawl (e.g. `Itemid` is actually a lot more common than `itemid` ).             |
+| samlists-parameters-lowercase.txt  | ~47K rows  | Same as `samlists-parameters.txt` but converted to lowercase and deduplicated (while preserving order). I recommend using the mixed case wordlist unless you are sure your target is case insensitive as items in this list are not exactly how they were discovered during the crawl (e.g. `Itemid` is actually a lot more common than `itemid` ).             |
 
 Wordlists for directories and files are in the works too, but even with 128 GB of memory crunching terabytes of data is hard. :)
 
